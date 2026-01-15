@@ -1,18 +1,38 @@
 library(shiny)
-ui <- fluidPage(
-  selectInput("dataset", label = "Dataset", choices = ls("package:datasets")),
-  verbatimTextOutput("summary"),
-  tableOutput("table")
+library(plotly)
+
+ui = fluidPage(
+  tabsetPanel(
+    tabPanel("Map", fluid = TRUE,
+             sidebarLayout(
+               sidebarPanel(selectInput("Country", "Select Country", choices = "", selected = "")),
+               mainPanel(
+                 htmlOutput("Attacks")
+               )
+             )
+    ),
+    tabPanel("plot", fluid = TRUE,
+             sidebarLayout(
+               sidebarPanel(sliderInput("year", "Year:", min = 1968, max = 2009, value = 2009, sep='')),
+               mainPanel(fluidRow(
+                 column(7,  plotlyOutput("")),
+                 column(5, plotlyOutput(""))   
+               )
+               )
+             )
+    )
+  )
 )
-server <- function(input, output, session) {
-  output$summary <- renderPrint({
-    dataset <- get(input$dataset, "package:datasets")
-    summary(dataset)
-  })
+server <- function(input, output) {
   
-  output$table <- renderTable({
-    dataset <- get(input$dataset, "package:datasets")
-    dataset
+}
+
+shinyApp(ui = ui, server = server)
+
+
+server <- function(input, output, session) {
+  output$panel <- renderText({
+    paste("Current panel: ", input$tabset)
   })
 }
 shinyApp(ui, server)

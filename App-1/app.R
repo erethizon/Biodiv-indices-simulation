@@ -9,62 +9,90 @@ beads <- read_csv("Data/one_bead_set_per_community_type.csv")
 #source helper functions
 
 
-
 # Define UI ----
-ui <- page_sidebar(
-  title = "Exploring biodiversity indices",
-  sidebar = sidebar(
-   card(
-     card_header("Simulation type"),
-     radioButtons(
-       inputId = "sim_type",
-       label = NULL,
-       choices = c("simulate a set of beads", 
-       "simulate a more natural community"),
-     selected = "simulate a set of beads")
-   ),
-   card(
-     card_header("Community structure"),
-     radioButtons(
-       inputId = "com_type", 
-       label = NULL,
-       choices = c("one dominant species",
-                   "species evenly distributed",
-                   "pseudorandom structure"), 
-       selected = "one dominant species")
-       ),
-   card(
-     card_header("Number of trials (max 10)"),
-     sliderInput(
-       "num_trials",
-       NULL,
-       min = 1,
-       max = 10, 
-       value = 5
-     )
-   ),
-   card(
-     card_header("Which index or indices will you use?"),
-     checkboxGroupInput(
-       "index_choice",
-       "Select all that apply",
-       choices = c("Species richness",
-                      "Simpson's index",
-                      "Shannon index")
-     )
-   )
-   ),
-
-  card(
-    card_header("First card title"), 
-    textOutput("selected_sim"),
-    textOutput("selected_com"),
-    textOutput("selected_trials"),
-    textOutput("selected_index"),
-    card_footer("Footer text here")
-  )
+ui <- page_fluid(
+  theme = bs_theme(
+    bootswatch = "cosmo"
+  ),
+  ##app title ---
   
+  ##create tabs ---
+  
+  navset_card_tab(
+    #assign id to track active tab from server
+    id = "card_tabs",
+    
+    ##first tab ---
+    nav_panel("Simulation with sets of beads",
+  
+             layout_sidebar(
+                sidebar = sidebar("Parameters",
+                                  
+                                    card(
+                                      card_header("Community structure"),
+                                      radioButtons(
+                                        inputId = "com_type",
+                                        label = NULL,
+                                        choices = c("one dominant species",
+                                                    "species evenly distributed",
+                                                    "pseudorandom structure"),
+                                        selected = "one dominant species")
+                                    ),
+                                    
+                                    card(
+                                      card_header("Number of trials (max 10)"),
+                                      sliderInput(
+                                        "num_trials",
+                                        NULL,
+                                        min = 1,
+                                        max = 10,
+                                        value = 5)
+                                    ),
+                                    
+                                    card(
+                                      card_header("Which index or indices will you use?"),
+                                      checkboxGroupInput(
+                                        "index_choice",
+                                        "Select all that apply",
+                                        choices = c("Species richness",
+                                                    "Simpson's index",
+                                                    "Shannon index")
+                                      )
+                                    )
+                                    
+                                                
+                                    
+                                    ),
+                
+                ##main output
+                card(
+                  fill = TRUE,
+                  height = "100px",
+                  card_header("Your chosen settings"),
+                  textOutput("selected_sim"),
+                  textOutput("selected_com"),
+                  textOutput("selected_trials"),
+                  textOutput("choice_text"),
+                  textOutput("selected_index"),
+                  
+                ),
+                card(
+                  card_header("Results"),
+                  #put output figures here
+                  card_footer("Footer text here")
+                )
+             )
+             
+        )
+    
+    ##second tab
+    # nav_panel("Simulation with more realistic data"
+    #   
+    # )
+  )
 )
+
+
 
 # Define server logic ----
 server <- function(input, output) {
@@ -83,6 +111,7 @@ server <- function(input, output) {
  #    
  # # })
   
+  ##report list of parameter choices
   output$selected_sim <- renderText({
     paste("You have selected to ", input$sim_type)
   })
@@ -95,9 +124,17 @@ server <- function(input, output) {
     paste0("You have chosen to complete ", input$num_trials, " trials")
   })
   
+  #report selected indices
+  
+  selected_indices <- reactive({input$index_choice})
+  
+  output$choice_text <- renderText({
+   "You have chosen to compute:"
+   })
+  
   output$selected_index <- renderText({
-    print("You have chosen to compute:")  
-    input$index_choice
+    selected_indices <- input$index_choice
+    paste(selected_indices, collapse = ", ")
   })
   
 }
