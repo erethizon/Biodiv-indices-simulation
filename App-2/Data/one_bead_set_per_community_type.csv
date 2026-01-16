@@ -1,0 +1,34 @@
+"Bead_set_id","Treatment","Bead_color","Num_beads"
+"105","One dominant species","Red1",150
+"105","One dominant species","Red2",5
+"105","One dominant species","Dark orange",5
+"105","One dominant species","Orange",5
+"105","One dominant species","Dark blue",5
+"105","One dominant species","Med blue",5
+"105","One dominant species","Light blue",5
+"105","One dominant species","Olive green",5
+"105","One dominant species","Kelly green",5
+"105","One dominant species","White",10
+"205","Even","Red1",20
+"205","Even","Red2",20
+"205","Even","Dark orange",20
+"205","Even","Dark blue",20
+"205","Even","Light blue",20
+"205","Even","Kelly green",20
+"205","Even","Pink",20
+"205","Even","Magenta",20
+"205","Even","Brown",20
+"205","Even","White",20
+"305","Pseudorandom","Red1",2
+"305","Pseudorandom","Dark orange",3
+"305","Pseudorandom","Dark blue",13
+"305","Pseudorandom","Med blue",4
+"305","Pseudorandom","Kelly green",21
+"305","Pseudorandom","Yellow",17
+"305","Pseudorandom","Pink",12
+"305","Pseudorandom","Purple",12
+"305","Pseudorandom","Magenta",27
+"305","Pseudorandom","Dark brown",5
+"305","Pseudorandom","Brown",17
+"305","Pseudorandom","Gray",2
+"305","Pseudorandom","White",65

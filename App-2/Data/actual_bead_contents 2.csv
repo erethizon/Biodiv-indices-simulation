@@ -1,0 +1,742 @@
+Bead_set_id,Treatment,Bead_color,Num_beads
+101,One dominant species,Red1,150
+101,One dominant species,Red2,5
+101,One dominant species,Dark orange,
+101,One dominant species,Orange,5
+101,One dominant species,Dark blue,
+101,One dominant species,Med blue,5
+101,One dominant species,Light blue,
+101,One dominant species,Olive green ,5
+101,One dominant species,Kelly green,
+101,One dominant species,Yellow,5
+101,One dominant species,Pink,
+101,One dominant species,Purple,5
+101,One dominant species,Magenta,
+101,One dominant species,Dark brown,5
+101,One dominant species,Brown,
+101,One dominant species,Tan,5
+101,One dominant species,Black,
+101,One dominant species,Gray,
+101,One dominant species,White,10
+102,One dominant species,Red1,150
+102,One dominant species,Red2,
+102,One dominant species,Dark orange,5
+102,One dominant species,Orange,
+102,One dominant species,Dark blue,5
+102,One dominant species,Med blue,
+102,One dominant species,Light blue,5
+102,One dominant species,Olive green ,
+102,One dominant species,Kelly green,5
+102,One dominant species,Yellow,
+102,One dominant species,Pink,5
+102,One dominant species,Purple,
+102,One dominant species,Magenta,5
+102,One dominant species,Dark brown,
+102,One dominant species,Brown,5
+102,One dominant species,Tan,
+102,One dominant species,Black,5
+102,One dominant species,Gray,
+102,One dominant species,White,10
+103,One dominant species,Red1,150
+103,One dominant species,Red2,5
+103,One dominant species,Dark orange,
+103,One dominant species,Orange,5
+103,One dominant species,Dark blue,
+103,One dominant species,Med blue,5
+103,One dominant species,Light blue,
+103,One dominant species,Olive green ,5
+103,One dominant species,Kelly green,
+103,One dominant species,Yellow,5
+103,One dominant species,Pink,
+103,One dominant species,Purple,5
+103,One dominant species,Magenta,
+103,One dominant species,Dark brown,5
+103,One dominant species,Brown,
+103,One dominant species,Tan,
+103,One dominant species,Black,
+103,One dominant species,Gray,5
+103,One dominant species,White,10
+104,One dominant species,Red1,150
+104,One dominant species,Red2,
+104,One dominant species,Dark orange,5
+104,One dominant species,Orange,
+104,One dominant species,Dark blue,5
+104,One dominant species,Med blue,
+104,One dominant species,Light blue,5
+104,One dominant species,Olive green ,
+104,One dominant species,Kelly green,5
+104,One dominant species,Yellow,
+104,One dominant species,Pink,5
+104,One dominant species,Purple,
+104,One dominant species,Magenta,5
+104,One dominant species,Dark brown,
+104,One dominant species,Brown,
+104,One dominant species,Tan,
+104,One dominant species,Black,5
+104,One dominant species,Gray,5
+104,One dominant species,White,10
+105,One dominant species,Red1,150
+105,One dominant species,Red2,5
+105,One dominant species,Dark orange,5
+105,One dominant species,Orange,5
+105,One dominant species,Dark blue,5
+105,One dominant species,Med blue,5
+105,One dominant species,Light blue,5
+105,One dominant species,Olive green ,5
+105,One dominant species,Kelly green,5
+105,One dominant species,Yellow,
+105,One dominant species,Pink,
+105,One dominant species,Purple,
+105,One dominant species,Magenta,
+105,One dominant species,Dark brown,
+105,One dominant species,Brown,
+105,One dominant species,Tan,
+105,One dominant species,Black,
+105,One dominant species,Gray,
+105,One dominant species,White,10
+106,One dominant species,Red1,150
+106,One dominant species,Red2,
+106,One dominant species,Dark orange,
+106,One dominant species,Orange,5
+106,One dominant species,Dark blue,5
+106,One dominant species,Med blue,
+106,One dominant species,Light blue,
+106,One dominant species,Olive green ,
+106,One dominant species,Kelly green,5
+106,One dominant species,Yellow,5
+106,One dominant species,Pink,5
+106,One dominant species,Purple,5
+106,One dominant species,Magenta,
+106,One dominant species,Dark brown,
+106,One dominant species,Brown,5
+106,One dominant species,Tan,
+106,One dominant species,Black,5
+106,One dominant species,Gray,
+106,One dominant species,White,10
+107,One dominant species,Red1,150
+107,One dominant species,Red2,
+107,One dominant species,Dark orange,
+107,One dominant species,Orange,5
+107,One dominant species,Dark blue,5
+107,One dominant species,Med blue,
+107,One dominant species,Light blue,
+107,One dominant species,Olive green ,
+107,One dominant species,Kelly green,5
+107,One dominant species,Yellow,5
+107,One dominant species,Pink,5
+107,One dominant species,Purple,5
+107,One dominant species,Magenta,
+107,One dominant species,Dark brown,
+107,One dominant species,Brown,5
+107,One dominant species,Tan,
+107,One dominant species,Black,5
+107,One dominant species,Gray,
+107,One dominant species,White,10
+108,One dominant species,Red1,150
+108,One dominant species,Red2,
+108,One dominant species,Dark orange,
+108,One dominant species,Orange,5
+108,One dominant species,Dark blue,5
+108,One dominant species,Med blue,5
+108,One dominant species,Light blue,
+108,One dominant species,Olive green ,
+108,One dominant species,Kelly green,5
+108,One dominant species,Yellow,5
+108,One dominant species,Pink,5
+108,One dominant species,Purple,5
+108,One dominant species,Magenta,
+108,One dominant species,Dark brown,
+108,One dominant species,Brown,
+108,One dominant species,Tan,
+108,One dominant species,Black,5
+108,One dominant species,Gray,
+108,One dominant species,White,10
+109,One dominant species,Red1,150
+109,One dominant species,Red2,
+109,One dominant species,Dark orange,
+109,One dominant species,Orange,5
+109,One dominant species,Dark blue,5
+109,One dominant species,Med blue,5
+109,One dominant species,Light blue,
+109,One dominant species,Olive green ,
+109,One dominant species,Kelly green,5
+109,One dominant species,Yellow,5
+109,One dominant species,Pink,5
+109,One dominant species,Purple,5
+109,One dominant species,Magenta,
+109,One dominant species,Dark brown,
+109,One dominant species,Brown,
+109,One dominant species,Tan,
+109,One dominant species,Black,5
+109,One dominant species,Gray,
+109,One dominant species,White,10
+110,One dominant species,Red1,150
+110,One dominant species,Red2,
+110,One dominant species,Dark orange,
+110,One dominant species,Orange,5
+110,One dominant species,Dark blue,5
+110,One dominant species,Med blue,
+110,One dominant species,Light blue,
+110,One dominant species,Olive green ,
+110,One dominant species,Kelly green,5
+110,One dominant species,Yellow,5
+110,One dominant species,Pink,5
+110,One dominant species,Purple,5
+110,One dominant species,Magenta,
+110,One dominant species,Dark brown,
+110,One dominant species,Brown,5
+110,One dominant species,Tan,
+110,One dominant species,Black,5
+110,One dominant species,Gray,
+110,One dominant species,White,10
+111,One dominant species,Red1,150
+111,One dominant species,Red2,
+111,One dominant species,Dark orange,
+111,One dominant species,Orange,5
+111,One dominant species,Dark blue,5
+111,One dominant species,Med blue,
+111,One dominant species,Light blue,
+111,One dominant species,Olive green ,
+111,One dominant species,Kelly green,5
+111,One dominant species,Yellow,5
+111,One dominant species,Pink,5
+111,One dominant species,Purple,5
+111,One dominant species,Magenta,
+111,One dominant species,Dark brown,5
+111,One dominant species,Brown,
+111,One dominant species,Tan,
+111,One dominant species,Black,5
+111,One dominant species,Gray,
+111,One dominant species,White,10
+112,One dominant species,Red1,150
+112,One dominant species,Red2,
+112,One dominant species,Dark orange,
+112,One dominant species,Orange,5
+112,One dominant species,Dark blue,5
+112,One dominant species,Med blue,
+112,One dominant species,Light blue,
+112,One dominant species,Olive green ,
+112,One dominant species,Kelly green,5
+112,One dominant species,Yellow,5
+112,One dominant species,Pink,5
+112,One dominant species,Purple,5
+112,One dominant species,Magenta,5
+112,One dominant species,Dark brown,
+112,One dominant species,Brown,
+112,One dominant species,Tan,
+112,One dominant species,Black,5
+112,One dominant species,Gray,
+112,One dominant species,White,10
+Bag 1,One dominant species,Red1,150
+Bag 1,One dominant species,Red2,
+Bag 1,One dominant species,Dark orange,
+Bag 1,One dominant species,Orange,
+Bag 1,One dominant species,Dark blue,
+Bag 1,One dominant species,Med blue,
+Bag 1,One dominant species,Light blue,
+Bag 1,One dominant species,Olive green ,
+Bag 1,One dominant species,Kelly green,
+Bag 1,One dominant species,Yellow,5
+Bag 1,One dominant species,Pink,5
+Bag 1,One dominant species,Purple,5
+Bag 1,One dominant species,Magenta,5
+Bag 1,One dominant species,Dark brown,5
+Bag 1,One dominant species,Brown,5
+Bag 1,One dominant species,Tan,5
+Bag 1,One dominant species,Black,5
+Bag 1,One dominant species,Gray,
+Bag 1,One dominant species,White,10
+201,Even,Red1,
+201,Even,Red2,20
+201,Even,Dark orange,20
+201,Even,Orange,20
+201,Even,Dark blue,20
+201,Even,Med blue,20
+201,Even,Light blue,20
+201,Even,Olive green ,20
+201,Even,Kelly green,20
+201,Even,Yellow,20
+201,Even,Pink,
+201,Even,Purple,
+201,Even,Magenta,
+201,Even,Dark brown,
+201,Even,Brown,
+201,Even,Tan,
+201,Even,Black,
+201,Even,Gray,
+201,Even,White,20
+202,Even,Red1,20
+202,Even,Red2,20
+202,Even,Dark orange,
+202,Even,Orange,
+202,Even,Dark blue,
+202,Even,Med blue,
+202,Even,Light blue,
+202,Even,Olive green ,
+202,Even,Kelly green,
+202,Even,Yellow,
+202,Even,Pink,
+202,Even,Purple,20
+202,Even,Magenta,20
+202,Even,Dark brown,20
+202,Even,Brown,20
+202,Even,Tan,20
+202,Even,Black,20
+202,Even,Gray,20
+202,Even,White,20
+203,Even,Red1,20
+203,Even,Red2,
+203,Even,Dark orange,20
+203,Even,Orange,
+203,Even,Dark blue,20
+203,Even,Med blue,
+203,Even,Light blue,20
+203,Even,Olive green ,
+203,Even,Kelly green,20
+203,Even,Yellow,
+203,Even,Pink,20
+203,Even,Purple,
+203,Even,Magenta,20
+203,Even,Dark brown,
+203,Even,Brown,20
+203,Even,Tan,
+203,Even,Black,20
+203,Even,Gray,
+203,Even,White,20
+204,Even,Red1,20
+204,Even,Red2,
+204,Even,Dark orange,
+204,Even,Orange,20
+204,Even,Dark blue,
+204,Even,Med blue,20
+204,Even,Light blue,
+204,Even,Olive green ,20
+204,Even,Kelly green,
+204,Even,Yellow,20
+204,Even,Pink,
+204,Even,Purple,20
+204,Even,Magenta,
+204,Even,Dark brown,20
+204,Even,Brown,
+204,Even,Tan,20
+204,Even,Black,
+204,Even,Gray,20
+204,Even,White,20
+205,Even,Red1,20
+205,Even,Red2,20
+205,Even,Dark orange,20
+205,Even,Orange,
+205,Even,Dark blue,20
+205,Even,Med blue,
+205,Even,Light blue,20
+205,Even,Olive green ,
+205,Even,Kelly green,20
+205,Even,Yellow,
+205,Even,Pink,20
+205,Even,Purple,
+205,Even,Magenta,20
+205,Even,Dark brown,
+205,Even,Brown,20
+205,Even,Tan,
+205,Even,Black,
+205,Even,Gray,
+205,Even,White,20
+206,Even,Red1,20
+206,Even,Red2,
+206,Even,Dark orange,20
+206,Even,Orange,20
+206,Even,Dark blue,20
+206,Even,Med blue,
+206,Even,Light blue,
+206,Even,Olive green ,
+206,Even,Kelly green,20
+206,Even,Yellow,20
+206,Even,Pink,20
+206,Even,Purple,20
+206,Even,Magenta,
+206,Even,Dark brown,
+206,Even,Brown,
+206,Even,Tan,
+206,Even,Black,20
+206,Even,Gray,
+206,Even,White,20
+207,Even,Red1,20
+207,Even,Red2,
+207,Even,Dark orange,
+207,Even,Orange,20
+207,Even,Dark blue,20
+207,Even,Med blue,
+207,Even,Light blue,20
+207,Even,Olive green ,
+207,Even,Kelly green,20
+207,Even,Yellow,20
+207,Even,Pink,20
+207,Even,Purple,20
+207,Even,Magenta,
+207,Even,Dark brown,
+207,Even,Brown,
+207,Even,Tan,
+207,Even,Black,20
+207,Even,Gray,
+207,Even,White,20
+208,Even,Red1,20
+208,Even,Red2,
+208,Even,Dark orange,
+208,Even,Orange,20
+208,Even,Dark blue,20
+208,Even,Med blue,
+208,Even,Light blue,
+208,Even,Olive green ,20
+208,Even,Kelly green,20
+208,Even,Yellow,20
+208,Even,Pink,20
+208,Even,Purple,20
+208,Even,Magenta,
+208,Even,Dark brown,
+208,Even,Brown,
+208,Even,Tan,
+208,Even,Black,20
+208,Even,Gray,
+208,Even,White,20
+209,Even,Red1,20
+209,Even,Red2,
+209,Even,Dark orange,
+209,Even,Orange,20
+209,Even,Dark blue,20
+209,Even,Med blue,
+209,Even,Light blue,
+209,Even,Olive green ,
+209,Even,Kelly green,20
+209,Even,Yellow,20
+209,Even,Pink,20
+209,Even,Purple,20
+209,Even,Magenta,20
+209,Even,Dark brown,
+209,Even,Brown,
+209,Even,Tan,
+209,Even,Black,20
+209,Even,Gray,
+209,Even,White,20
+210,Even,Red1,20
+210,Even,Red2,
+210,Even,Dark orange,
+210,Even,Orange,20
+210,Even,Dark blue,20
+210,Even,Med blue,
+210,Even,Light blue,
+210,Even,Olive green ,
+210,Even,Kelly green,20
+210,Even,Yellow,20
+210,Even,Pink,20
+210,Even,Purple,20
+210,Even,Magenta,
+210,Even,Dark brown,
+210,Even,Brown,20
+210,Even,Tan,
+210,Even,Black,20
+210,Even,Gray,
+210,Even,White,20
+211,Even,Red1,20
+211,Even,Red2,
+211,Even,Dark orange,
+211,Even,Orange,20
+211,Even,Dark blue,20
+211,Even,Med blue,
+211,Even,Light blue,
+211,Even,Olive green ,
+211,Even,Kelly green,20
+211,Even,Yellow,20
+211,Even,Pink,20
+211,Even,Purple,20
+211,Even,Magenta,
+211,Even,Dark brown,
+211,Even,Brown,
+211,Even,Tan,20
+211,Even,Black,20
+211,Even,Gray,
+211,Even,White,20
+212,Even,Red1,20
+212,Even,Red2,
+212,Even,Dark orange,
+212,Even,Orange,20
+212,Even,Dark blue,20
+212,Even,Med blue,
+212,Even,Light blue,
+212,Even,Olive green ,
+212,Even,Kelly green,20
+212,Even,Yellow,20
+212,Even,Pink,20
+212,Even,Purple,20
+212,Even,Magenta,
+212,Even,Dark brown,
+212,Even,Brown,
+212,Even,Tan,
+212,Even,Black,20
+212,Even,Gray,20
+212,Even,White,20
+Bag 2,Even,Red1,
+Bag 2,Even,Red2,
+Bag 2,Even,Dark orange,
+Bag 2,Even,Orange,20
+Bag 2,Even,Dark blue,
+Bag 2,Even,Med blue,20
+Bag 2,Even,Light blue,
+Bag 2,Even,Olive green ,20
+Bag 2,Even,Kelly green,
+Bag 2,Even,Yellow,20
+Bag 2,Even,Pink,
+Bag 2,Even,Purple,20
+Bag 2,Even,Magenta,
+Bag 2,Even,Dark brown,20
+Bag 2,Even,Brown,
+Bag 2,Even,Tan,20
+Bag 2,Even,Black,20
+Bag 2,Even,Gray,20
+Bag 2,Even,White,20
+301,Pseudorandom,Red1,
+301,Pseudorandom,Red2,38
+301,Pseudorandom,Dark orange,32
+301,Pseudorandom,Orange,
+301,Pseudorandom,Dark blue,
+301,Pseudorandom,Med blue,
+301,Pseudorandom,Light blue,41
+301,Pseudorandom,Olive green ,31
+301,Pseudorandom,Kelly green,
+301,Pseudorandom,Yellow,
+301,Pseudorandom,Pink,
+301,Pseudorandom,Purple,
+301,Pseudorandom,Magenta,
+301,Pseudorandom,Dark brown,
+301,Pseudorandom,Brown,
+301,Pseudorandom,Tan,
+301,Pseudorandom,Black,28
+301,Pseudorandom,Gray,
+301,Pseudorandom,White,30
+302,Pseudorandom,Red1,
+302,Pseudorandom,Red2,6
+302,Pseudorandom,Dark orange,
+302,Pseudorandom,Orange,35
+302,Pseudorandom,Dark blue,21
+302,Pseudorandom,Med blue,
+302,Pseudorandom,Light blue,5
+302,Pseudorandom,Olive green ,
+302,Pseudorandom,Kelly green,
+302,Pseudorandom,Yellow,
+302,Pseudorandom,Pink,
+302,Pseudorandom,Purple,15
+302,Pseudorandom,Magenta,
+302,Pseudorandom,Dark brown,19
+302,Pseudorandom,Brown,
+302,Pseudorandom,Tan,24
+302,Pseudorandom,Black,14
+302,Pseudorandom,Gray,21
+302,Pseudorandom,White,40
+303,Pseudorandom,Red1,5
+303,Pseudorandom,Red2,5
+303,Pseudorandom,Dark orange,
+303,Pseudorandom,Orange,12
+303,Pseudorandom,Dark blue,
+303,Pseudorandom,Med blue,30
+303,Pseudorandom,Light blue,
+303,Pseudorandom,Olive green ,16
+303,Pseudorandom,Kelly green,10
+303,Pseudorandom,Yellow,
+303,Pseudorandom,Pink,5
+303,Pseudorandom,Purple,17
+303,Pseudorandom,Magenta,
+303,Pseudorandom,Dark brown,20
+303,Pseudorandom,Brown,10
+303,Pseudorandom,Tan,22
+303,Pseudorandom,Black,
+303,Pseudorandom,Gray,18
+303,Pseudorandom,White,30
+304,Pseudorandom,Red1,5
+304,Pseudorandom,Red2,
+304,Pseudorandom,Dark orange,10
+304,Pseudorandom,Orange,
+304,Pseudorandom,Dark blue,10
+304,Pseudorandom,Med blue,8
+304,Pseudorandom,Light blue,
+304,Pseudorandom,Olive green ,
+304,Pseudorandom,Kelly green,11
+304,Pseudorandom,Yellow,26
+304,Pseudorandom,Pink,50
+304,Pseudorandom,Purple,
+304,Pseudorandom,Magenta,9
+304,Pseudorandom,Dark brown,
+304,Pseudorandom,Brown,20
+304,Pseudorandom,Tan,6
+304,Pseudorandom,Black,
+304,Pseudorandom,Gray,5
+304,Pseudorandom,White,40
+305,Pseudorandom,Red1,2
+305,Pseudorandom,Red2,
+305,Pseudorandom,Dark orange,3
+305,Pseudorandom,Orange,
+305,Pseudorandom,Dark blue,13
+305,Pseudorandom,Med blue,4
+305,Pseudorandom,Light blue,
+305,Pseudorandom,Olive green ,
+305,Pseudorandom,Kelly green,21
+305,Pseudorandom,Yellow,17
+305,Pseudorandom,Pink,12
+305,Pseudorandom,Purple,12
+305,Pseudorandom,Magenta,27
+305,Pseudorandom,Dark brown,5
+305,Pseudorandom,Brown,17
+305,Pseudorandom,Tan,
+305,Pseudorandom,Black,
+305,Pseudorandom,Gray,2
+305,Pseudorandom,White,65
+306,Pseudorandom,Red1,43
+306,Pseudorandom,Red2,
+306,Pseudorandom,Dark orange,
+306,Pseudorandom,Orange,
+306,Pseudorandom,Dark blue,
+306,Pseudorandom,Med blue,
+306,Pseudorandom,Light blue,3
+306,Pseudorandom,Olive green ,
+306,Pseudorandom,Kelly green,17
+306,Pseudorandom,Yellow,23
+306,Pseudorandom,Pink,22
+306,Pseudorandom,Purple,
+306,Pseudorandom,Magenta,
+306,Pseudorandom,Dark brown,
+306,Pseudorandom,Brown,
+306,Pseudorandom,Tan,
+306,Pseudorandom,Black,25
+306,Pseudorandom,Gray,
+306,Pseudorandom,White,67
+307,Pseudorandom,Red1,12
+307,Pseudorandom,Red2,
+307,Pseudorandom,Dark orange,
+307,Pseudorandom,Orange,35
+307,Pseudorandom,Dark blue,21
+307,Pseudorandom,Med blue,
+307,Pseudorandom,Light blue,
+307,Pseudorandom,Olive green ,
+307,Pseudorandom,Kelly green,16
+307,Pseudorandom,Yellow,12
+307,Pseudorandom,Pink,31
+307,Pseudorandom,Purple,15
+307,Pseudorandom,Magenta,
+307,Pseudorandom,Dark brown,4
+307,Pseudorandom,Brown,
+307,Pseudorandom,Tan,
+307,Pseudorandom,Black,14
+307,Pseudorandom,Gray,
+307,Pseudorandom,White,40
+308,Pseudorandom,Red1,8
+308,Pseudorandom,Red2,
+308,Pseudorandom,Dark orange,
+308,Pseudorandom,Orange,12
+308,Pseudorandom,Dark blue,36
+308,Pseudorandom,Med blue,
+308,Pseudorandom,Light blue,
+308,Pseudorandom,Olive green ,
+308,Pseudorandom,Kelly green,10
+308,Pseudorandom,Yellow,
+308,Pseudorandom,Pink,5
+308,Pseudorandom,Purple,17
+308,Pseudorandom,Magenta,
+308,Pseudorandom,Dark brown,
+308,Pseudorandom,Brown,10
+308,Pseudorandom,Tan,
+308,Pseudorandom,Black,29
+308,Pseudorandom,Gray,
+308,Pseudorandom,White,73
+309,Pseudorandom,Red1,18
+309,Pseudorandom,Red2,
+309,Pseudorandom,Dark orange,1
+309,Pseudorandom,Orange,
+309,Pseudorandom,Dark blue,10
+309,Pseudorandom,Med blue,8
+309,Pseudorandom,Light blue,
+309,Pseudorandom,Olive green ,
+309,Pseudorandom,Kelly green,19
+309,Pseudorandom,Yellow,26
+309,Pseudorandom,Pink,56
+309,Pseudorandom,Purple,
+309,Pseudorandom,Magenta,4
+309,Pseudorandom,Dark brown,
+309,Pseudorandom,Brown,
+309,Pseudorandom,Tan,
+309,Pseudorandom,Black,
+309,Pseudorandom,Gray,
+309,Pseudorandom,White,58
+310,Pseudorandom,Red1,2
+310,Pseudorandom,Red2,
+310,Pseudorandom,Dark orange,
+310,Pseudorandom,Orange,
+310,Pseudorandom,Dark blue,43
+310,Pseudorandom,Med blue,1
+310,Pseudorandom,Light blue,
+310,Pseudorandom,Olive green ,
+310,Pseudorandom,Kelly green,41
+310,Pseudorandom,Yellow,17
+310,Pseudorandom,Pink,19
+310,Pseudorandom,Purple,12
+310,Pseudorandom,Magenta,
+310,Pseudorandom,Dark brown,
+310,Pseudorandom,Brown,
+310,Pseudorandom,Tan,
+310,Pseudorandom,Black,
+310,Pseudorandom,Gray,
+310,Pseudorandom,White,65
+311,Pseudorandom,Red1,5
+311,Pseudorandom,Red2,
+311,Pseudorandom,Dark orange,5
+311,Pseudorandom,Orange,3
+311,Pseudorandom,Dark blue,25
+311,Pseudorandom,Med blue,
+311,Pseudorandom,Light blue,
+311,Pseudorandom,Olive green ,1
+311,Pseudorandom,Kelly green,13
+311,Pseudorandom,Yellow,6
+311,Pseudorandom,Pink,2
+311,Pseudorandom,Purple,9
+311,Pseudorandom,Magenta,
+311,Pseudorandom,Dark brown,
+311,Pseudorandom,Brown,
+311,Pseudorandom,Tan,
+311,Pseudorandom,Black,7
+311,Pseudorandom,Gray,
+311,Pseudorandom,White,124
+312,Pseudorandom,Red1,32
+312,Pseudorandom,Red2,
+312,Pseudorandom,Dark orange,
+312,Pseudorandom,Orange,35
+312,Pseudorandom,Dark blue,21
+312,Pseudorandom,Med blue,
+312,Pseudorandom,Light blue,5
+312,Pseudorandom,Olive green ,
+312,Pseudorandom,Kelly green,31
+312,Pseudorandom,Yellow,1
+312,Pseudorandom,Pink,1
+312,Pseudorandom,Purple,15
+312,Pseudorandom,Magenta,
+312,Pseudorandom,Dark brown,
+312,Pseudorandom,Brown,
+312,Pseudorandom,Tan,
+312,Pseudorandom,Black,14
+312,Pseudorandom,Gray,4
+312,Pseudorandom,White,41
+Bag 3,Pseudorandom,Red1,5
+Bag 3,Pseudorandom,Red2,
+Bag 3,Pseudorandom,Dark orange,5
+Bag 3,Pseudorandom,Orange,3
+Bag 3,Pseudorandom,Dark blue,5
+Bag 3,Pseudorandom,Med blue,7
+Bag 3,Pseudorandom,Light blue,3
+Bag 3,Pseudorandom,Olive green ,2
+Bag 3,Pseudorandom,Kelly green,7
+Bag 3,Pseudorandom,Yellow,6
+Bag 3,Pseudorandom,Pink,2
+Bag 3,Pseudorandom,Purple,5
+Bag 3,Pseudorandom,Magenta,13
+Bag 3,Pseudorandom,Dark brown,5
+Bag 3,Pseudorandom,Brown,7
+Bag 3,Pseudorandom,Tan,2
+Bag 3,Pseudorandom,Black,7
+Bag 3,Pseudorandom,Gray,8
+Bag 3,Pseudorandom,White,108
