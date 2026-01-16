@@ -3,6 +3,12 @@ library(shiny)
 library(bslib)
 library(tidyverse)
 
+##copy to console to do error checking
+#options(shiny.error = browser)
+#options(shiny.reactlog = TRUE)
+#options(shiny.autoload.r = FALSE)
+
+
 #load data
 beads <- read_csv("Data/one_bead_set_per_community_type.csv")
 
@@ -33,9 +39,7 @@ ui <- page_fluid(
                                       radioButtons(
                                         inputId = "com_type",
                                         label = NULL,
-                                        choices = c("one dominant species",
-                                                    "species evenly distributed",
-                                                    "pseudorandom structure"),
+                                        choices = as.list(unique(beads$Treatment)),
                                         selected = "one dominant species")
                                     ),
                                     
@@ -56,7 +60,9 @@ ui <- page_fluid(
                                         "Select all that apply",
                                         choices = c("Species richness",
                                                     "Simpson's index",
-                                                    "Shannon index")
+                                                    "Shannon index"), 
+                                        selected = "Species richness", 
+                                        inline = FALSE
                                       )
                                     )
                                     
@@ -65,21 +71,25 @@ ui <- page_fluid(
                                     ),
                 
                 ##main output
+                ##first card to show parameter selections
                 card(
                   fill = TRUE,
                   height = "100px",
                   card_header("Your chosen settings"),
-                  textOutput("selected_sim"),
+                  #textOutput("selected_sim"), turn on if you keep whole app on one tab
                   textOutput("selected_com"),
                   textOutput("selected_trials"),
                   textOutput("choice_text"),
-                  textOutput("selected_index"),
+                  textOutput("selected_index")
                   
                 ),
+                
+                ##second card to show results
                 card(
                   card_header("Results"),
-                  #put output figures here
-                  card_footer("Footer text here")
+                 plotOutput("results_figure"),
+                  
+                  card_footer("Simulation results")
                 )
              )
              
@@ -96,20 +106,6 @@ ui <- page_fluid(
 
 # Define server logic ----
 server <- function(input, output) {
-  #switch to determine which part of data to use
- #  my_sim <- switch(input$sim_type, 
- #                   "simulate a set of beads" = beads, #use beads data set
- #                   "simulate a more natural community" = constructed_data)
- #  
- #  my_com <- switch(input$com_type,
- #                   "one dominant species" = 
- #                   "species evenly distributed",
- #                   "pseudorandom structure")
- #  
- #  ##need reactive expression to generate the data to use
- #  #beadsInput <- reactive({
- #    
- # # })
   
   ##report list of parameter choices
   output$selected_sim <- renderText({
@@ -136,6 +132,43 @@ server <- function(input, output) {
     selected_indices <- input$index_choice
     paste(selected_indices, collapse = ", ")
   })
+  
+  
+  ##now render the plot for the output
+    #start by processing data
+  processed_data <- reactive({
+    req(input$com_type)
+    
+    #now filter
+    beads_filtered <- beads |>
+      filter(Treatment == input$com_type)
+    
+  })
+  
+  
+    ##now make plot
+    output$results_figure <- renderPlot(
+      
+      
+      
+      ggplot(processed_data(), aes(x = Num_beads))+
+        geom_histogram()+
+        theme_bw()
+    
+                   )
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
   
 }
 
